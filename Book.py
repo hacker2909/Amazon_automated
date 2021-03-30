@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.common.action_chains import ActionChains
 
 #start
-driver = webdriver.Chrome("C://Users//adish//Downloads//chromedriver.exe")
+driver = webdriver.Chrome("path for //chromedriver.exe")
 driver.get("https://www.amazon.in/")
 driver.maximize_window()
 time.sleep(3)
